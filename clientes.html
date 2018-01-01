@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/estiloClientes.css">
+        
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        
+        <title>VC|Clientes</title>
+        
+    </head>
+    <body>    
+        <header>
+		<div id="contenedor1">
+			<div id="logotipo">
+				<a href="index.html"><img src="imagenes/logotipo.jpg" alt="logotipo de visuallity" name="Visuallity"></a>
+			</div>
+			<input type="checkbox" id="btn-menu">
+			<label for="btn-menu"><img src="imagenes/menu1.png" alt=""></label>
+			<nav class="menu">
+				<ul>
+					<li><a href="index.html">INICIO</a></li>
+					<li><a href="servicios.html">SERVICIOS</a></li>
+					<li><a href="clientes.html"><strong>CLIENTES</strong></a></li>
+					<li><a href="contacto.html">CONTACTO</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+  <main>
+    <div id="quienes">
+        <h2>¿Quienes son nuestros clientes?</h2>
+    </div>
+     <section id="cont-menu">
+         
+          <ul id="menu-clientes">
+              <li id="cambiar1"><img src="imagenes/pyme.png" alt="">PyMES</li>
+              <li id="cambiar2"><img src="imagenes/corp.png" alt="">Corporaciones</li>
+              <li id="cambiar3"><img src="imagenes/personal.png" alt="">Personal</li>
+          </ul>
+          
+          <article class="contenido">
+              <h2>PyMES</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus accusantium pariatur similique amet at odit voluptate                      dolor reiciendis aut, voluptas iure, dignissimos fuga officiis sit deserunt. Deleniti dolores, sit eum.Tenetur sit deleniti ab                      corporis dignissimos ipsam quaerat iste a saepe fuga temporibus optio architecto, quo necessitatibus id cupiditate eos, atque esse                  autem consequuntur quia nobis? Porro quasi ab pariatur.</p>
+          </article>
+    </section>
+
+ </main>
+    <footer>
+        	<div id="contenedor5">
+				<div id="datos">
+					<h5>Tel:55555555</h5><br>
+					<h5><a href="">E-mail:@@@@@@@</a></h5>
+				</div>
+				<div id="redes">
+					<p>Síguenos:</p>
+					<a href=""><img src="imagenes/facebook.png" id="img1"></a>
+					<a href=""><img src="imagenes/twitter.png" id="img2"></a>
+				</div>
+				<div id="formulario">
+					<form>
+						<h3 class="form_title">Contáctanos</h3>
+
+						<input type="text" value maxlength="30" id="nombre" placeholder="Escriba su nombre" required>
+						<input type="email" id="email" placeholder="Correo electronico" required>
+						<textarea id="mensaje" placeholder="Escriba su mensaje" required></textarea>
+
+						<input type="submit" value="Enviar">
+					</form>
+				</div>
+		</div>
+    </footer>
+   
+           <script src="js/mostrar-menu.js"></script>
+
+    </body>
+</html>

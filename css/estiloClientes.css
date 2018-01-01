@@ -1,0 +1,389 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: verdana;
+}
+
+/*--------------------------------LOGO Y NOMBRE-------------------------------------------*/
+
+header #contenedor1 #logotipo img
+{
+	float: left;
+	height: 50px;
+  
+}
+
+/*----------------------------HEADER------------------------------------------------------*/
+
+
+header{
+	background: rgba(22, 160, 133, 0.95);
+	position: fixed;
+    margin-top: -53px;
+	width: 100%;
+    height: 50px;
+	border-bottom: 3px solid #070D12;
+    z-index: 10;
+}
+
+#btn-menu{display: none;}
+
+header label{
+    clear: both;
+    display: none;
+    width: 25px;
+    height: 25px;
+    padding: 13px;
+    float: right;
+    margin-top: -50px;
+}
+header label img{
+    width: 100%;
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+
+header #contenedor1{
+	width: 80%;
+	margin:  auto;
+    height: 50px;	
+}
+header nav{
+	width: 50%;	
+	margin-left: 50%;
+}
+.menu ul{
+    margin: 0;
+	list-style: none;
+	padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li{
+    font-size: 15px;
+    flex-grow: 1;
+    text-align: center;
+}
+header nav ul li{
+	float: right;
+}
+.menu li a{
+	display: block;
+    margin-top: -3px;
+    padding: 20px 20px;
+    color: #ecf0f1;
+    box-shadow: 0px 3px #070D12 inset;
+    transition: .5s;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.menu li a:hover{
+	color: #1abc9c;
+    box-shadow: 0px 56px #070D12 inset;
+}
+
+/*--------------------------BODY---------------------------------------------*/
+
+body{background: #ecf0f1;}
+
+#quienes{
+    margin-top: 53px;
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	color: #1abc9c;
+    border-bottom: 2px solid #1abc9c;
+    border-top: 2px solid #1abc9c;
+}
+#quienes h2{
+    width: 80%;
+	margin: 0 auto;
+    padding: 20px;
+}
+
+#cont-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 5%;
+    background: #FFF;
+    margin: 0 auto;
+    width:  80%;
+
+    box-sizing: border-box;
+}
+
+#menu-clientes{
+    width: 30%;
+    list-style: none;
+    line-height: 42px;
+  
+}
+#menu-clientes a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+
+}
+#menu-clientes li img{
+    width: 25px;
+    padding-right: 8px;
+}
+#menu-clientes li{
+    box-shadow: 3px 0 rgba(0,0,0,0.3) inset;
+    padding-left: 8px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+#menu-clientes li:hover{
+    margin-left: 1em;
+    transition: all .4s;
+    box-shadow: 200px 0 rgba(0,0,0,0.3) inset;
+}
+
+
+.contenido{
+    padding: 20px;
+    width: 70%;
+    height: 400px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+.contenido h2{ 
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+/*-----------------------------------------FOOTER-----------------------------------------*/
+
+#contenedor5{	
+	width: 80%;
+	margin: 0 auto;
+}
+
+footer{
+	background: #070D12;
+	color: #1abc9c;
+	float: left;
+	width: 100%;
+}
+
+#datos{	
+	float: left;
+	width: 25%;
+	margin-top: 2%;
+}
+#datos h5{
+	font-size: 12px;
+	text-align: left;
+	max-width: 1000px;
+}
+#datos a{
+    text-decoration: none;
+    color: #1abc9c;
+}
+#datos a:hover{text-decoration: underline;}
+
+#redes{
+	float: left;
+	width: 25%;
+	margin-top: 2%;
+}
+#redes p{
+	font-size: 15px;
+	text-align: left;
+}
+#redes #img1{
+	width: 50px;
+	margin-right: 40px;
+	margin-top: 10%;
+}
+#redes #img2{
+	width: 50px;
+	margin-top: 10%;
+}
+  #redes #img1:hover{
+        border-radius: 50%;
+        background: blue;    
+    }
+     #redes #img2:hover{
+        border-radius: 50%;
+        background: aqua;    
+    }
+
+form{
+	background: rgba(0,0,0,0.8);
+	width: 40%;
+	margin-left: 60%;
+	padding: 3%;
+	box-sizing: border-box;
+}
+
+.form_title{
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+textarea{
+	resize:vertical;
+	max-height: 200px;
+	min-height: 100px;
+}
+input, textarea{
+
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	border: 1px ;
+	box-sizing: border-box;
+}
+
+input:focus, textarea:focus{
+	
+	border-radius: 10px;
+    transition: .5s;
+    outline: none;
+}
+
+input[type="submit"]{
+	border: 1px solid #fff;
+    color: #fff;
+    background: rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+input[type="submit"]:hover{
+	background: #1abc9c;
+	cursor: pointer;
+}
+
+
+
+
+/*------------------------------medias---------------------------------*/
+
+@media (max-width: 768px){ 
+    header #contenedor1{width: 90%;}
+    body #descripcion{
+       margin-top: 50px;
+    }
+    body #contenedor2{width: 90%; padding: 5%;
+    box-sizing: border-box;}
+    
+    .menu{
+        position: absolute;
+        background: rgba(22, 160, 133, 0.95);
+        margin-top: 53px;
+        margin-left: 100%;
+        width: 100%;
+        transition: all 1s;
+    }
+    .menu ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    header label{
+        display: block;
+    }
+    #btn-menu:checked ~ .menu {  
+        margin-top: 53px;
+        margin-left: -5%;
+    }
+
+    #quienesSomos img{ margin-left: 40%; }
+    
+    #quienesSomos p{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .objetivo, .mision, .vision{
+    	width: 100%;
+    }
+    .objetivo h4, .mision h4, .vision h4{
+        text-align: center;
+    }
+    .objetivo img, .mision img, .vision img{
+        margin: auto 40%
+    }
+    
+    #paquetes{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .paquete1, .paquete2, .paquete3{
+         width: 100%; 
+        margin: 10px auto;
+    }
+    
+    #frase2 h2{width: 90%;}
+    #contenedor5{width: 90%;}
+    #datos{	
+	    width: 100%;	
+        margin-top: 20px;
+    }
+    #datos h5{
+        text-align: center;
+    }
+    #redes{
+        width: 100%;
+    }
+    #redes p{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    #redes #img1{
+        width: 50px;
+        margin-top: 10px;
+        margin-left: 38%;
+        margin-bottom: 20px;    
+    }
+    #redes #img2{
+        width: 50px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    form{
+        width: 90%;
+        clear: both;
+        margin-left: 5%;
+    }
+    
+}
+
+
+
+@media (max-width: 480px){
+     #contenedor5{    
+       width: 95%;
+    }
+    
+    #redes #img1{
+        width: 50px;
+        margin-top: 10px;
+        margin-left: 30%;
+        margin-bottom: 15px;
+    }
+    #redes #img2{
+        width: 50px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    form{width: 95%;
+    margin: auto;}
+}
